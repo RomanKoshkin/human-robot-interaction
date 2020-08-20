@@ -1,0 +1,683 @@
+Training from scratch ...
+Epoch [100] - Time [3600.81s] - RE_Q [1005.04] - RE_P [1004.54] - Regulation [27.8284] - loss [65.5981]
+The model has been saved
+Epoch [200] - Time [3595.95s] - RE_Q [798.862] - RE_P [790.48] - Regulation [15.9311] - loss [51.522]
+The model has been saved
+Epoch [300] - Time [3625.99s] - RE_Q [694.768] - RE_P [697.178] - Regulation [22.6513] - loss [45.6882]
+The model has been saved
+Epoch [400] - Time [3635.26s] - RE_Q [480.438] - RE_P [745.388] - Regulation [25.5577] - loss [32.5832]
+The model has been saved
+Epoch [500] - Time [3681.38s] - RE_Q [752.351] - RE_P [816.827] - Regulation [25.3322] - loss [49.5551]
+The model has been saved
+Epoch [600] - Time [3625.31s] - RE_Q [447.343] - RE_P [713.776] - Regulation [28.2314] - loss [30.7821]
+The model has been saved
+Epoch [700] - Time [3648.63s] - RE_Q [395.974] - RE_P [756.721] - Regulation [32.5423] - loss [28.0026]
+The model has been saved
+Epoch [800] - Time [3688.82s] - RE_Q [362.237] - RE_P [832.849] - Regulation [27.9858] - loss [25.4384]
+The model has been saved
+Epoch [900] - Time [3586.59s] - RE_Q [337.719] - RE_P [744.693] - Regulation [22.363] - loss [23.3437]
+The model has been saved
+Epoch [1000] - Time [3736.16s] - RE_Q [307.199] - RE_P [716.232] - Regulation [21.8203] - loss [21.3819]
+The model has been saved
+Epoch [1100] - Time [3757.21s] - RE_Q [330.924] - RE_P [694.482] - Regulation [20.0677] - loss [22.6896]
+The model has been saved
+Epoch [1200] - Time [3744.72s] - RE_Q [257.342] - RE_P [720.692] - Regulation [20.8891] - loss [18.1728]
+The model has been saved
+Epoch [1300] - Time [3633.04s] - RE_Q [191.897] - RE_P [879.372] - Regulation [31.3394] - loss [15.1275]
+The model has been saved
+Epoch [1400] - Time [3591.69s] - RE_Q [151.566] - RE_P [822.042] - Regulation [25.4375] - loss [12.0166]
+The model has been saved
+Epoch [1500] - Time [3660.81s] - RE_Q [142.68] - RE_P [783.421] - Regulation [26.1677] - loss [11.5343]
+The model has been saved
+Epoch [1600] - Time [3698.53s] - RE_Q [114.535] - RE_P [867.934] - Regulation [24.4886] - loss [9.60727]
+The model has been saved
+Epoch [1700] - Time [3621.73s] - RE_Q [139.801] - RE_P [754.553] - Regulation [23.7991] - loss [11.1175]
+The model has been saved
+Epoch [1800] - Time [3697.21s] - RE_Q [131.13] - RE_P [760.18] - Regulation [21.4161] - loss [10.3372]
+The model has been saved
+Epoch [1900] - Time [3689.46s] - RE_Q [140.998] - RE_P [981.577] - Regulation [21.6205] - loss [10.9744]
+The model has been saved
+Epoch [2000] - Time [3672.44s] - RE_Q [141.314] - RE_P [595.347] - Regulation [19.8262] - loss [10.8147]
+The model has been saved
+Epoch [2100] - Time [3661.04s] - RE_Q [88.2024] - RE_P [794.416] - Regulation [17.6043] - loss [7.27308]
+The model has been saved
+Epoch [2200] - Time [3911.44s] - RE_Q [93.4994] - RE_P [802.376] - Regulation [19.84] - loss [7.82771]
+The model has been saved
+Epoch [2300] - Time [4347.14s] - RE_Q [98.5994] - RE_P [830.297] - Regulation [17.4556] - loss [7.90803]
+The model has been saved
+Epoch [2400] - Time [4339.61s] - RE_Q [149.179] - RE_P [773.263] - Regulation [19.3784] - loss [11.2615]
+The model has been saved
+Epoch [2500] - Time [4323.85s] - RE_Q [109.002] - RE_P [638.37] - Regulation [19.5328] - loss [8.76591]
+The model has been saved
+Epoch [2600] - Time [4321.82s] - RE_Q [85.2249] - RE_P [886.127] - Regulation [16.4354] - loss [6.9701]
+The model has been saved
+Epoch [2700] - Time [4340.59s] - RE_Q [78.4793] - RE_P [950.651] - Regulation [16.6683] - loss [6.57179]
+The model has been saved
+Epoch [2800] - Time [4324.89s] - RE_Q [64.2903] - RE_P [999.892] - Regulation [16.3395] - loss [5.6521]
+The model has been saved
+Epoch [2900] - Time [4304.03s] - RE_Q [50.5957] - RE_P [992.864] - Regulation [14.1234] - loss [4.57457]
+The model has been saved
+Epoch [3000] - Time [4207.7s] - RE_Q [152.192] - RE_P [915.182] - Regulation [19.2785] - loss [11.4399]
+The model has been saved
+Epoch [3100] - Time [3675.67s] - RE_Q [40.2788] - RE_P [1008.24] - Regulation [13.3495] - loss [3.85238]
+The model has been saved
+Epoch [3200] - Time [3634.94s] - RE_Q [38.1674] - RE_P [995.341] - Regulation [12.3864] - loss [3.6241]
+The model has been saved
+Epoch [3300] - Time [4302.86s] - RE_Q [32.9363] - RE_P [1673.71] - Regulation [15.5548] - loss [3.614]
+The model has been saved
+Epoch [3400] - Time [4303.46s] - RE_Q [35.9361] - RE_P [2204.01] - Regulation [13.8897] - loss [3.63498]
+The model has been saved
+Epoch [3500] - Time [4276.55s] - RE_Q [660.911] - RE_P [759.393] - Regulation [79.1688] - loss [49.2238]
+The model has been saved
+Epoch [3600] - Time [4342.77s] - RE_Q [427.559] - RE_P [757.185] - Regulation [32.0791] - loss [29.9303]
+The model has been saved
+Epoch [3700] - Time [4367.78s] - RE_Q [285.831] - RE_P [803.627] - Regulation [25.0855] - loss [20.373]
+The model has been saved
+Epoch [3800] - Time [4351.49s] - RE_Q [221.653] - RE_P [767.396] - Regulation [21.9621] - loss [16.0495]
+The model has been saved
+Epoch [3900] - Time [4352.34s] - RE_Q [173.212] - RE_P [753.255] - Regulation [22.049] - loss [13.0307]
+The model has been saved
+Epoch [4000] - Time [4375.63s] - RE_Q [153.086] - RE_P [870.861] - Regulation [21.9127] - loss [11.7592]
+The model has been saved
+Epoch [4100] - Time [4352.18s] - RE_Q [126.664] - RE_P [750.527] - Regulation [22.2609] - loss [10.1426]
+The model has been saved
+Epoch [4200] - Time [4316.33s] - RE_Q [132.787] - RE_P [831.121] - Regulation [21.4983] - loss [10.449]
+The model has been saved
+Epoch [4300] - Time [4320.83s] - RE_Q [106.708] - RE_P [705.755] - Regulation [21.1114] - loss [8.7804]
+The model has been saved
+Epoch [4400] - Time [4331.08s] - RE_Q [146.107] - RE_P [693.56] - Regulation [21.1923] - loss [11.2509]
+The model has been saved
+Epoch [4500] - Time [4308.21s] - RE_Q [106.76] - RE_P [650.023] - Regulation [21.5237] - loss [8.82484]
+The model has been saved
+Epoch [4600] - Time [4330.11s] - RE_Q [93.0782] - RE_P [836.122] - Regulation [21.0966] - loss [7.92705]
+The model has been saved
+Epoch [4700] - Time [4294.16s] - RE_Q [80.6232] - RE_P [777.129] - Regulation [20.0847] - loss [7.04742]
+The model has been saved
+Epoch [4800] - Time [4348.23s] - RE_Q [73.9105] - RE_P [863.396] - Regulation [18.7954] - loss [6.49894]
+The model has been saved
+Epoch [4900] - Time [3783.35s] - RE_Q [65.1729] - RE_P [757.319] - Regulation [17.9563] - loss [5.86893]
+The model has been saved
+Epoch [5000] - Time [6687.31s] - RE_Q [76.4795] - RE_P [733.228] - Regulation [18.053] - loss [6.58527]
+The model has been saved
+Epoch [5100] - Time [4329.9s] - RE_Q [56.4029] - RE_P [901.125] - Regulation [17.2167] - loss [5.24685]
+The model has been saved
+Epoch [5200] - Time [4329.17s] - RE_Q [47.6653] - RE_P [1220.44] - Regulation [18.0788] - loss [4.78696]
+The model has been saved
+Epoch [5300] - Time [4328.89s] - RE_Q [48.5413] - RE_P [813.64] - Regulation [17.0523] - loss [4.73906]
+The model has been saved
+Epoch [5400] - Time [4316.49s] - RE_Q [50.8565] - RE_P [922.489] - Regulation [16.6261] - loss [4.84113]
+The model has been saved
+Epoch [5500] - Time [4294.7s] - RE_Q [54.2019] - RE_P [914.532] - Regulation [15.4777] - loss [4.93539]
+The model has been saved
+Epoch [5600] - Time [4302.1s] - RE_Q [43.8081] - RE_P [899.077] - Regulation [14.6912] - loss [4.20713]
+The model has been saved
+Epoch [5700] - Time [4293.49s] - RE_Q [38.6781] - RE_P [953.589] - Regulation [13.8144] - loss [3.79882]
+The model has been saved
+Epoch [5800] - Time [4319.11s] - RE_Q [48.0388] - RE_P [907.372] - Regulation [13.7453] - loss [4.37695]
+The model has been saved
+Epoch [5900] - Time [4324.46s] - RE_Q [35.4422] - RE_P [1027.14] - Regulation [13.1644] - loss [3.53158]
+The model has been saved
+Epoch [6000] - Time [4380.72s] - RE_Q [46.8539] - RE_P [849.583] - Regulation [17.7481] - loss [4.70319]
+The model has been saved
+Epoch [6100] - Time [4325.59s] - RE_Q [34.0476] - RE_P [893.766] - Regulation [12.9466] - loss [3.42264]
+The model has been saved
+Epoch [6200] - Time [4333.19s] - RE_Q [39.7871] - RE_P [908.781] - Regulation [12.2919] - loss [3.71588]
+The model has been saved
+Epoch [6300] - Time [4306.34s] - RE_Q [27.2578] - RE_P [863.788] - Regulation [11.241] - loss [2.82772]
+The model has been saved
+Epoch [6400] - Time [4345.58s] - RE_Q [29.3361] - RE_P [847.652] - Regulation [11.5956] - loss [2.99306]
+The model has been saved
+Epoch [6500] - Time [4339.42s] - RE_Q [25.9929] - RE_P [852.802] - Regulation [11.1417] - loss [2.73873]
+The model has been saved
+Epoch [6600] - Time [4312.3s] - RE_Q [26.752] - RE_P [1632.68] - Regulation [11.0753] - loss [2.77953]
+The model has been saved
+Epoch [6700] - Time [4294.23s] - RE_Q [26.5778] - RE_P [925.247] - Regulation [11.3834] - loss [2.79945]
+The model has been saved
+Epoch [6800] - Time [4428.7s] - RE_Q [30.8083] - RE_P [1489.94] - Regulation [11.374] - loss [3.06292]
+The model has been saved
+Epoch [6900] - Time [4440.62s] - RE_Q [23.9063] - RE_P [2075.17] - Regulation [10.7835] - loss [2.5725]
+The model has been saved
+Epoch [7000] - Time [4250.53s] - RE_Q [29.9688] - RE_P [1402.92] - Regulation [11.1465] - loss [2.98769]
+The model has been saved
+Epoch [7100] - Time [3803.53s] - RE_Q [19.0054] - RE_P [1908.74] - Regulation [9.72211] - loss [2.16005]
+The model has been saved
+Epoch [7200] - Time [3738.53s] - RE_Q [18.6027] - RE_P [1791.42] - Regulation [9.21293] - loss [2.08396]
+The model has been saved
+Epoch [7300] - Time [3809.15s] - RE_Q [26.836] - RE_P [1759.66] - Regulation [10.5132] - loss [2.72857]
+The model has been saved
+Epoch [7400] - Time [3766.45s] - RE_Q [22.2485] - RE_P [918.514] - Regulation [7.94924] - loss [2.18545]
+The model has been saved
+Epoch [7500] - Time [3666.49s] - RE_Q [20.1236] - RE_P [1893.15] - Regulation [9.76754] - loss [2.23448]
+The model has been saved
+Epoch [7600] - Time [3745.6s] - RE_Q [17.1043] - RE_P [1544.42] - Regulation [8.5101] - loss [1.92003]
+The model has been saved
+Epoch [7700] - Time [3665.26s] - RE_Q [17.0787] - RE_P [1120.62] - Regulation [7.95857] - loss [1.86328]
+The model has been saved
+Epoch [7800] - Time [3768.01s] - RE_Q [17.8561] - RE_P [1289.75] - Regulation [8.75195] - loss [1.9912]
+The model has been saved
+Epoch [7900] - Time [3891.92s] - RE_Q [21.3265] - RE_P [1579.41] - Regulation [8.18183] - loss [2.15109]
+The model has been saved
+Epoch [8000] - Time [3828.94s] - RE_Q [15.1286] - RE_P [1818.64] - Regulation [7.82063] - loss [1.7276]
+The model has been saved
+Epoch [8100] - Time [3741.5s] - RE_Q [15.9673] - RE_P [973.433] - Regulation [8.62961] - loss [1.86092]
+The model has been saved
+Epoch [8200] - Time [3792.62s] - RE_Q [18.3872] - RE_P [1447.41] - Regulation [6.86824] - loss [1.83602]
+The model has been saved
+Epoch [8300] - Time [4529.9s] - RE_Q [20.3662] - RE_P [1811.6] - Regulation [7.84869] - loss [2.05776]
+The model has been saved
+Epoch [8400] - Time [4686.91s] - RE_Q [18.922] - RE_P [820.821] - Regulation [7.18228] - loss [1.90085]
+The model has been saved
+Epoch [8500] - Time [4494.87s] - RE_Q [19.7787] - RE_P [1046.41] - Regulation [7.56175] - loss [1.99235]
+The model has been saved
+Epoch [8600] - Time [4474.78s] - RE_Q [17.1671] - RE_P [1293.95] - Regulation [7.25263] - loss [1.79821]
+The model has been saved
+Epoch [8700] - Time [4507.15s] - RE_Q [16.3496] - RE_P [923.338] - Regulation [7.53266] - loss [1.77511]
+The model has been saved
+Epoch [8800] - Time [4447.03s] - RE_Q [13.8013] - RE_P [898.864] - Regulation [6.23307] - loss [1.48589]
+The model has been saved
+Epoch [8900] - Time [4465.07s] - RE_Q [16.0837] - RE_P [1426.34] - Regulation [6.20427] - loss [1.62566]
+The model has been saved
+Epoch [9000] - Time [4490.5s] - RE_Q [13.1148] - RE_P [1887.34] - Regulation [6.91511] - loss [1.51119]
+The model has been saved
+Epoch [9100] - Time [4508.83s] - RE_Q [12.253] - RE_P [1682.39] - Regulation [5.81372] - loss [1.34718]
+The model has been saved
+Epoch [9200] - Time [4477.11s] - RE_Q [12.6838] - RE_P [1516.88] - Regulation [6.64785] - loss [1.45752]
+The model has been saved
+Epoch [9300] - Time [4437.48s] - RE_Q [11.7233] - RE_P [969.087] - Regulation [6.1728] - loss [1.34999]
+The model has been saved
+Epoch [9400] - Time [4493.79s] - RE_Q [14.0697] - RE_P [1684.95] - Regulation [5.5839] - loss [1.43774]
+The model has been saved
+Epoch [9500] - Time [4484.09s] - RE_Q [13.5779] - RE_P [1497.31] - Regulation [6.65012] - loss [1.51363]
+The model has been saved
+Epoch [9600] - Time [4452.8s] - RE_Q [13.2056] - RE_P [1280.47] - Regulation [4.99457] - loss [1.32481]
+The model has been saved
+Epoch [9700] - Time [4670.72s] - RE_Q [12.675] - RE_P [625.824] - Regulation [5.57406] - loss [1.34959]
+The model has been saved
+Epoch [9800] - Time [4659.16s] - RE_Q [10.7168] - RE_P [1053.64] - Regulation [5.79991] - loss [1.24979]
+The model has been saved
+Epoch [9900] - Time [4628.04s] - RE_Q [10.1336] - RE_P [1542.26] - Regulation [5.63956] - loss [1.19731]
+The model has been saved
+Epoch [10000] - Time [4579.45s] - RE_Q [15.6983] - RE_P [1130.12] - Regulation [5.22232] - loss [1.50338]
+The model has been saved
+Epoch [10100] - Time [4717.88s] - RE_Q [10.0149] - RE_P [1706.65] - Regulation [5.99167] - loss [1.2251]
+The model has been saved
+Epoch [10200] - Time [4560.17s] - RE_Q [10.2693] - RE_P [1285.84] - Regulation [5.07443] - loss [1.14928]
+The model has been saved
+Epoch [10300] - Time [4373.43s] - RE_Q [10.0747] - RE_P [1820.25] - Regulation [5.27826] - loss [1.15749]
+The model has been saved
+Epoch [10400] - Time [4387.57s] - RE_Q [9.43357] - RE_P [816.627] - Regulation [5.16258] - loss [1.10586]
+The model has been saved
+Epoch [10500] - Time [4405.3s] - RE_Q [8.35692] - RE_P [1414.08] - Regulation [5.42372] - loss [1.06468]
+The model has been saved
+Epoch [10600] - Time [4368.69s] - RE_Q [9.06958] - RE_P [1999.03] - Regulation [5.96149] - loss [1.163]
+The model has been saved
+Epoch [10700] - Time [4638.57s] - RE_Q [10.7788] - RE_P [859.584] - Regulation [5.48781] - loss [1.22246]
+The model has been saved
+Epoch [10800] - Time [4623.18s] - RE_Q [15.0868] - RE_P [1381.6] - Regulation [4.91007] - loss [1.43393]
+The model has been saved
+Epoch [10900] - Time [3730.47s] - RE_Q [9.6298] - RE_P [1673.95] - Regulation [5.50159] - loss [1.15202]
+The model has been saved
+Epoch [11000] - Time [3729.13s] - RE_Q [9.73621] - RE_P [1167.71] - Regulation [5.04282] - loss [1.11279]
+The model has been saved
+Epoch [11100] - Time [3716.49s] - RE_Q [7.26871] - RE_P [1401.79] - Regulation [4.69421] - loss [0.923716]
+The model has been saved
+Epoch [11200] - Time [3680.61s] - RE_Q [7.94387] - RE_P [1626.42] - Regulation [5.40363] - loss [1.03685]
+The model has been saved
+Epoch [11300] - Time [3775.24s] - RE_Q [7.071] - RE_P [1331.07] - Regulation [4.94964] - loss [0.936901]
+The model has been saved
+Epoch [11400] - Time [3815.71s] - RE_Q [8.51451] - RE_P [1123.4] - Regulation [4.6721] - loss [0.999367]
+The model has been saved
+Epoch [11500] - Time [3737.2s] - RE_Q [8.01072] - RE_P [1063.53] - Regulation [4.02682] - loss [0.903352]
+The model has been saved
+Epoch [11600] - Time [3755.81s] - RE_Q [7.61781] - RE_P [1652.6] - Regulation [4.30487] - loss [0.9066]
+The model has been saved
+Epoch [11700] - Time [3747.3s] - RE_Q [10.441] - RE_P [1456.32] - Regulation [4.9523] - loss [1.14779]
+The model has been saved
+Epoch [11800] - Time [3719.58s] - RE_Q [8.03148] - RE_P [1210.56] - Regulation [5.07154] - loss [1.00912]
+The model has been saved
+Epoch [11900] - Time [3660.69s] - RE_Q [6.96502] - RE_P [1519.53] - Regulation [4.35854] - loss [0.871168]
+The model has been saved
+Epoch [12000] - Time [3679.77s] - RE_Q [6.6963] - RE_P [1960.27] - Regulation [4.05502] - loss [0.824021]
+The model has been saved
+Epoch [12100] - Time [3720.3s] - RE_Q [6.93762] - RE_P [1535.56] - Regulation [4.39484] - loss [0.873085]
+The model has been saved
+Epoch [12200] - Time [3755.79s] - RE_Q [8.00678] - RE_P [1065.06] - Regulation [4.27105] - loss [0.927529]
+The model has been saved
+Epoch [12300] - Time [3724.16s] - RE_Q [7.21259] - RE_P [1422.21] - Regulation [4.43631] - loss [0.894418]
+The model has been saved
+Epoch [12400] - Time [3642.03s] - RE_Q [8.24404] - RE_P [2165.11] - Regulation [3.7383] - loss [0.889082]
+The model has been saved
+Epoch [12500] - Time [3662.43s] - RE_Q [7.5592] - RE_P [1961.46] - Regulation [4.01939] - loss [0.874389]
+The model has been saved
+Epoch [12600] - Time [3656.2s] - RE_Q [6.77641] - RE_P [1914.78] - Regulation [4.00943] - loss [0.824469]
+The model has been saved
+Epoch [12700] - Time [3661.69s] - RE_Q [8.04143] - RE_P [1701.59] - Regulation [4.22015] - loss [0.924604]
+The model has been saved
+Epoch [12800] - Time [3664.91s] - RE_Q [7.14533] - RE_P [1561.66] - Regulation [4.03248] - loss [0.849832]
+The model has been saved
+Epoch [12900] - Time [3679.89s] - RE_Q [6.42401] - RE_P [1295.09] - Regulation [4.27422] - loss [0.828923]
+The model has been saved
+Epoch [13000] - Time [3703.36s] - RE_Q [9.07757] - RE_P [1617.44] - Regulation [3.83316] - loss [0.950664]
+The model has been saved
+Epoch [13100] - Time [3655.85s] - RE_Q [11.3852] - RE_P [1573.5] - Regulation [4.71951] - loss [1.18353]
+The model has been saved
+Epoch [13200] - Time [3638.35s] - RE_Q [6.81909] - RE_P [735.733] - Regulation [3.99218] - loss [0.825411]
+The model has been saved
+Epoch [13300] - Time [3654.12s] - RE_Q [6.68329] - RE_P [1719.02] - Regulation [3.80948] - loss [0.798653]
+The model has been saved
+Epoch [13400] - Time [3644.78s] - RE_Q [6.36017] - RE_P [2052.54] - Regulation [3.95733] - loss [0.793244]
+The model has been saved
+Epoch [13500] - Time [3638.15s] - RE_Q [7.13737] - RE_P [1890.5] - Regulation [3.93595] - loss [0.839681]
+The model has been saved
+Epoch [13600] - Time [3640.92s] - RE_Q [6.02462] - RE_P [1773.09] - Regulation [4.07882] - loss [0.784421]
+The model has been saved
+Epoch [13700] - Time [3672.59s] - RE_Q [7.1184] - RE_P [2507.41] - Regulation [4.27848] - loss [0.872748]
+The model has been saved
+Epoch [13800] - Time [3701.27s] - RE_Q [7.50851] - RE_P [1726.59] - Regulation [3.93496] - loss [0.862778]
+The model has been saved
+Epoch [13900] - Time [3672.65s] - RE_Q [8.56371] - RE_P [1596.9] - Regulation [5.40464] - loss [1.0757]
+The model has been saved
+Epoch [14000] - Time [3646s] - RE_Q [8.09885] - RE_P [2011.73] - Regulation [5.95243] - loss [1.10142]
+The model has been saved
+Epoch [14100] - Time [3655.32s] - RE_Q [5.87813] - RE_P [2339.51] - Regulation [3.94528] - loss [0.761911]
+The model has been saved
+Epoch [14200] - Time [3680.68s] - RE_Q [5.8735] - RE_P [1323.39] - Regulation [4.48166] - loss [0.81526]
+The model has been saved
+Epoch [14300] - Time [3673.25s] - RE_Q [5.69523] - RE_P [1414.32] - Regulation [3.67395] - loss [0.723347]
+The model has been saved
+Epoch [14400] - Time [3746s] - RE_Q [6.23009] - RE_P [2001.93] - Regulation [4.02787] - loss [0.792167]
+The model has been saved
+Epoch [14500] - Time [3660.22s] - RE_Q [6.24904] - RE_P [1668.64] - Regulation [3.72646] - loss [0.763211]
+The model has been saved
+Epoch [14600] - Time [3646.27s] - RE_Q [6.43696] - RE_P [1214.33] - Regulation [3.55269] - loss [0.75758]
+The model has been saved
+Epoch [14700] - Time [3661.55s] - RE_Q [5.32862] - RE_P [2397.87] - Regulation [3.598] - loss [0.692838]
+The model has been saved
+Epoch [14800] - Time [3640.09s] - RE_Q [6.14952] - RE_P [2026.01] - Regulation [3.62036] - loss [0.746381]
+The model has been saved
+Epoch [14900] - Time [3772.46s] - RE_Q [5.28686] - RE_P [1279.49] - Regulation [3.15933] - loss [0.646362]
+The model has been saved
+Epoch [15000] - Time [3749.68s] - RE_Q [5.26101] - RE_P [2068.19] - Regulation [3.52289] - loss [0.681102]
+The model has been saved
+Epoch [15100] - Time [4345.79s] - RE_Q [4.99013] - RE_P [1647.47] - Regulation [3.13869] - loss [0.625752]
+The model has been saved
+Epoch [15200] - Time [4357.45s] - RE_Q [7.16572] - RE_P [1464.79] - Regulation [3.38602] - loss [0.78646]
+The model has been saved
+Epoch [15300] - Time [4396.38s] - RE_Q [6.89909] - RE_P [1225.81] - Regulation [2.97735] - loss [0.728928]
+The model has been saved
+Epoch [15400] - Time [4129.57s] - RE_Q [5.30557] - RE_P [752.887] - Regulation [3.31593] - loss [0.663191]
+The model has been saved
+Epoch [15500] - Time [3665.95s] - RE_Q [6.20209] - RE_P [1649.9] - Regulation [2.74503] - loss [0.662134]
+The model has been saved
+Epoch [15600] - Time [3635.4s] - RE_Q [5.45285] - RE_P [478.126] - Regulation [2.71945] - loss [0.612748]
+The model has been saved
+Epoch [15700] - Time [3655.46s] - RE_Q [4.23608] - RE_P [1755.45] - Regulation [2.72925] - loss [0.53768]
+The model has been saved
+Epoch [15800] - Time [3648.42s] - RE_Q [5.02288] - RE_P [1226.98] - Regulation [2.60496] - loss [0.574426]
+The model has been saved
+Epoch [15900] - Time [3698.77s] - RE_Q [4.97985] - RE_P [694.192] - Regulation [2.93115] - loss [0.604356]
+The model has been saved
+Epoch [16000] - Time [3637.97s] - RE_Q [5.2256] - RE_P [784.941] - Regulation [2.74752] - loss [0.601352]
+The model has been saved
+Epoch [16100] - Time [3646.85s] - RE_Q [3.9874] - RE_P [775.996] - Regulation [2.75425] - loss [0.524637]
+The model has been saved
+Epoch [16200] - Time [3632.74s] - RE_Q [3.68133] - RE_P [183.53] - Regulation [2.65015] - loss [0.495098]
+The model has been saved
+Epoch [16300] - Time [3638.89s] - RE_Q [4.60144] - RE_P [527.621] - Regulation [2.52861] - loss [0.540451]
+The model has been saved
+Epoch [16400] - Time [3646.47s] - RE_Q [4.41468] - RE_P [778.378] - Regulation [2.58918] - loss [0.534835]
+The model has been saved
+Epoch [16500] - Time [3627.81s] - RE_Q [3.74581] - RE_P [244.982] - Regulation [2.45064] - loss [0.479177]
+The model has been saved
+Epoch [16600] - Time [3658.42s] - RE_Q [4.22261] - RE_P [876.734] - Regulation [2.29937] - loss [0.49385]
+The model has been saved
+Epoch [16700] - Time [3659.25s] - RE_Q [3.99583] - RE_P [223.759] - Regulation [2.23519] - loss [0.473258]
+The model has been saved
+Epoch [16800] - Time [3622.47s] - RE_Q [4.93358] - RE_P [608.02] - Regulation [2.65269] - loss [0.573618]
+The model has been saved
+Epoch [16900] - Time [3561.7s] - RE_Q [3.59956] - RE_P [165.928] - Regulation [2.06502] - loss [0.431474]
+The model has been saved
+Epoch [17000] - Time [3572.21s] - RE_Q [3.57696] - RE_P [881.299] - Regulation [2.35649] - loss [0.459209]
+The model has been saved
+Epoch [17100] - Time [3608.96s] - RE_Q [4.42197] - RE_P [486.909] - Regulation [2.77939] - loss [0.554312]
+The model has been saved
+Epoch [17200] - Time [3623.59s] - RE_Q [4.68656] - RE_P [115.975] - Regulation [2.61472] - loss [0.554382]
+The model has been saved
+Epoch [17300] - Time [3591.08s] - RE_Q [3.06951] - RE_P [450.265] - Regulation [2.06194] - loss [0.398038]
+The model has been saved
+Epoch [17400] - Time [3623.77s] - RE_Q [4.38217] - RE_P [478.459] - Regulation [2.30264] - loss [0.50415]
+The model has been saved
+Epoch [17500] - Time [3685.42s] - RE_Q [4.19278] - RE_P [419.433] - Regulation [2.23942] - loss [0.485991]
+The model has been saved
+Epoch [17600] - Time [3719.9s] - RE_Q [3.53729] - RE_P [573.516] - Regulation [2.28351] - loss [0.449432]
+The model has been saved
+Epoch [17700] - Time [4368.68s] - RE_Q [3.67124] - RE_P [167.721] - Regulation [1.9884] - loss [0.428292]
+The model has been saved
+Epoch [17800] - Time [4276.5s] - RE_Q [2.86778] - RE_P [452.544] - Regulation [2.20782] - loss [0.400018]
+The model has been saved
+Epoch [17900] - Time [3603.77s] - RE_Q [4.17818] - RE_P [757.09] - Regulation [2.14053] - loss [0.475189]
+The model has been saved
+Epoch [18000] - Time [3603.47s] - RE_Q [3.6365] - RE_P [507.019] - Regulation [2.11889] - loss [0.43917]
+The model has been saved
+Epoch [18100] - Time [3591.81s] - RE_Q [3.57154] - RE_P [82.8419] - Regulation [2.33025] - loss [0.456247]
+The model has been saved
+Epoch [18200] - Time [3615.71s] - RE_Q [220.778] - RE_P [1495.39] - Regulation [14.2161] - loss [15.2202]
+The model has been saved
+Epoch [18300] - Time [3666.71s] - RE_Q [9.89617] - RE_P [2445.56] - Regulation [5.41208] - loss [1.15972]
+The model has been saved
+Epoch [18400] - Time [3623.63s] - RE_Q [7.33202] - RE_P [1641.68] - Regulation [3.87044] - loss [0.845296]
+The model has been saved
+Epoch [18500] - Time [3601.21s] - RE_Q [6.74835] - RE_P [2443.84] - Regulation [3.55378] - loss [0.777149]
+The model has been saved
+Epoch [18600] - Time [3602.58s] - RE_Q [8.19516] - RE_P [1511.79] - Regulation [3.6924] - loss [0.881437]
+The model has been saved
+Epoch [18700] - Time [3691.03s] - RE_Q [7.58863] - RE_P [1798.17] - Regulation [3.57187] - loss [0.831476]
+The model has been saved
+Epoch [18800] - Time [3626.01s] - RE_Q [6.17914] - RE_P [2255.23] - Regulation [3.12799] - loss [0.698995]
+The model has been saved
+Epoch [18900] - Time [3636.73s] - RE_Q [5.89311] - RE_P [2077.39] - Regulation [2.96097] - loss [0.664416]
+The model has been saved
+Epoch [19000] - Time [3633.75s] - RE_Q [5.35938] - RE_P [1674.41] - Regulation [2.80587] - loss [0.615548]
+The model has been saved
+Epoch [19100] - Time [3635.38s] - RE_Q [7.83086] - RE_P [1333.14] - Regulation [3.25056] - loss [0.814485]
+The model has been saved
+Epoch [19200] - Time [3701.78s] - RE_Q [5.38808] - RE_P [2046.82] - Regulation [2.89743] - loss [0.626499]
+The model has been saved
+Epoch [19300] - Time [3672.05s] - RE_Q [7.67461] - RE_P [1383.24] - Regulation [3.00387] - loss [0.780051]
+The model has been saved
+Epoch [19400] - Time [3691.45s] - RE_Q [5.12267] - RE_P [1381.15] - Regulation [2.55121] - loss [0.575288]
+The model has been saved
+Epoch [19500] - Time [3646.42s] - RE_Q [4.79166] - RE_P [1087.41] - Regulation [2.66556] - loss [0.566034]
+The model has been saved
+Epoch [19600] - Time [3634.78s] - RE_Q [4.74795] - RE_P [1825.96] - Regulation [2.65262] - loss [0.562009]
+The model has been saved
+Epoch [19700] - Time [3719.86s] - RE_Q [4.49747] - RE_P [1859.98] - Regulation [2.00392] - loss [0.481484]
+The model has been saved
+Epoch [19800] - Time [3695.24s] - RE_Q [4.50543] - RE_P [1273.56] - Regulation [2.75184] - loss [0.556773]
+The model has been saved
+Epoch [19900] - Time [3637.52s] - RE_Q [4.09718] - RE_P [1723.93] - Regulation [2.40884] - loss [0.496958]
+The model has been saved
+Epoch [20000] - Time [3651.77s] - RE_Q [3.99147] - RE_P [1353.13] - Regulation [2.85819] - loss [0.535286]
+The model has been saved
+Epoch [20100] - Time [3661.61s] - RE_Q [4.16745] - RE_P [369.491] - Regulation [2.35135] - loss [0.4956]
+The model has been saved
+Epoch [20200] - Time [3606.65s] - RE_Q [8.46899] - RE_P [1851.7] - Regulation [3.78755] - loss [0.908067]
+The model has been saved
+Epoch [20300] - Time [3657.88s] - RE_Q [4.89625] - RE_P [1331.7] - Regulation [2.49384] - loss [0.5554]
+The model has been saved
+Epoch [20400] - Time [3613.91s] - RE_Q [4.03861] - RE_P [2535.17] - Regulation [2.37639] - loss [0.490052]
+The model has been saved
+Epoch [20500] - Time [3655.27s] - RE_Q [3.77624] - RE_P [950.795] - Regulation [2.8029] - loss [0.516305]
+The model has been saved
+Epoch [20600] - Time [3663.9s] - RE_Q [3.51484] - RE_P [1222.16] - Regulation [2.08539] - loss [0.428217]
+The model has been saved
+Epoch [20700] - Time [3651.42s] - RE_Q [4.51489] - RE_P [1052.94] - Regulation [2.22474] - loss [0.504655]
+The model has been saved
+Epoch [20800] - Time [3666.69s] - RE_Q [4.42232] - RE_P [624.81] - Regulation [2.36877] - loss [0.513272]
+The model has been saved
+Epoch [20900] - Time [3637.53s] - RE_Q [2.89759] - RE_P [1552.09] - Regulation [1.76588] - loss [0.357688]
+The model has been saved
+Epoch [21000] - Time [3731.74s] - RE_Q [3.33995] - RE_P [2027.42] - Regulation [2.01909] - loss [0.410656]
+The model has been saved
+Epoch [21100] - Time [3703.45s] - RE_Q [2.89113] - RE_P [1422.23] - Regulation [1.81308] - loss [0.362004]
+The model has been saved
+Epoch [21200] - Time [3657.96s] - RE_Q [3.09047] - RE_P [367.042] - Regulation [2.0038] - loss [0.393535]
+The model has been saved
+Epoch [21300] - Time [3605.42s] - RE_Q [2.9609] - RE_P [537.778] - Regulation [1.99834] - loss [0.384891]
+The model has been saved
+Epoch [21400] - Time [3646.5s] - RE_Q [3.76713] - RE_P [557.204] - Regulation [2.14517] - loss [0.449963]
+The model has been saved
+Epoch [21500] - Time [3676.52s] - RE_Q [3.10052] - RE_P [980.264] - Regulation [1.81045] - loss [0.374828]
+The model has been saved
+Epoch [21600] - Time [3630.4s] - RE_Q [3.34261] - RE_P [696.81] - Regulation [1.58432] - loss [0.367344]
+The model has been saved
+Epoch [21700] - Time [3710.7s] - RE_Q [3.2277] - RE_P [728.773] - Regulation [1.74978] - loss [0.376709]
+The model has been saved
+Epoch [21800] - Time [3600.62s] - RE_Q [3.93416] - RE_P [858.742] - Regulation [1.85496] - loss [0.431381]
+The model has been saved
+Epoch [21900] - Time [3600.86s] - RE_Q [4.546] - RE_P [190.972] - Regulation [2.288] - loss [0.512925]
+The model has been saved
+Epoch [22000] - Time [3584.86s] - RE_Q [3.80207] - RE_P [427.262] - Regulation [2.08998] - loss [0.446627]
+The model has been saved
+Epoch [22100] - Time [3599.17s] - RE_Q [3.12422] - RE_P [385.873] - Regulation [1.70358] - loss [0.365621]
+The model has been saved
+Epoch [22200] - Time [3582.21s] - RE_Q [2.9466] - RE_P [1345.36] - Regulation [1.57857] - loss [0.342019]
+The model has been saved
+Epoch [22300] - Time [3619.33s] - RE_Q [3.17809] - RE_P [902.208] - Regulation [1.60694] - loss [0.359325]
+The model has been saved
+Epoch [22400] - Time [3657.92s] - RE_Q [2.66358] - RE_P [242.32] - Regulation [1.64299] - loss [0.330773]
+The model has been saved
+Epoch [22500] - Time [3716.21s] - RE_Q [3.17058] - RE_P [79.5584] - Regulation [1.54035] - loss [0.352196]
+The model has been saved
+Epoch [22600] - Time [3645.02s] - RE_Q [3.43536] - RE_P [450.434] - Regulation [1.56702] - loss [0.371411]
+The model has been saved
+Epoch [22700] - Time [3503s] - RE_Q [3.42676] - RE_P [377.499] - Regulation [1.80708] - loss [0.394881]
+The model has been saved
+Epoch [22800] - Time [3603.88s] - RE_Q [98.2153] - RE_P [2213.19] - Regulation [4.82482] - loss [6.62094]
+The model has been saved
+Epoch [22900] - Time [3511.79s] - RE_Q [7.65837] - RE_P [1836.85] - Regulation [4.0519] - loss [0.883838]
+The model has been saved
+Epoch [23000] - Time [3512.49s] - RE_Q [7.26732] - RE_P [2545.62] - Regulation [4.87563] - loss [0.94177]
+The model has been saved
+Epoch [23100] - Time [3485.74s] - RE_Q [5.68475] - RE_P [2027.6] - Regulation [3.51047] - loss [0.706343]
+The model has been saved
+Epoch [23200] - Time [3471.38s] - RE_Q [6.48063] - RE_P [2157.51] - Regulation [3.95483] - loss [0.800522]
+The model has been saved
+Epoch [23300] - Time [3514.47s] - RE_Q [6.20208] - RE_P [2443.89] - Regulation [3.08863] - loss [0.696494]
+The model has been saved
+Epoch [23400] - Time [3594.62s] - RE_Q [5.58957] - RE_P [1605.18] - Regulation [3.3548] - loss [0.684828]
+The model has been saved
+Epoch [23500] - Time [3625.22s] - RE_Q [4.71423] - RE_P [813.501] - Regulation [3.23354] - loss [0.617993]
+The model has been saved
+Epoch [23600] - Time [3580.64s] - RE_Q [4.15161] - RE_P [1160.25] - Regulation [2.35322] - loss [0.494798]
+The model has been saved
+Epoch [23700] - Time [3572.81s] - RE_Q [3.74895] - RE_P [1626.79] - Regulation [2.14934] - loss [0.449243]
+The model has been saved
+Epoch [23800] - Time [3565.98s] - RE_Q [4.16184] - RE_P [590.691] - Regulation [2.24526] - loss [0.484641]
+The model has been saved
+Epoch [23900] - Time [3613.39s] - RE_Q [5.11918] - RE_P [1608.32] - Regulation [2.62055] - loss [0.582004]
+The model has been saved
+Epoch [24000] - Time [3575.33s] - RE_Q [4.47217] - RE_P [1541.09] - Regulation [1.68723] - loss [0.448233]
+The model has been saved
+Epoch [24100] - Time [3599.41s] - RE_Q [3.70547] - RE_P [829.623] - Regulation [2.02173] - loss [0.433765]
+The model has been saved
+Epoch [24200] - Time [3653.55s] - RE_Q [3.49862] - RE_P [1148.41] - Regulation [1.99087] - loss [0.41775]
+The model has been saved
+Epoch [24300] - Time [3597.83s] - RE_Q [3.92338] - RE_P [1337.7] - Regulation [1.79592] - loss [0.424804]
+The model has been saved
+Epoch [24400] - Time [3593.16s] - RE_Q [2.69208] - RE_P [568.121] - Regulation [1.52092] - loss [0.320347]
+The model has been saved
+Epoch [24500] - Time [3619.26s] - RE_Q [2.999] - RE_P [1310.12] - Regulation [1.94651] - loss [0.382089]
+The model has been saved
+Epoch [24600] - Time [3648.47s] - RE_Q [2.62885] - RE_P [407.073] - Regulation [1.42913] - loss [0.307216]
+The model has been saved
+Epoch [24700] - Time [3639.68s] - RE_Q [2.96219] - RE_P [362.343] - Regulation [1.84675] - loss [0.369812]
+The model has been saved
+Epoch [24800] - Time [3609.61s] - RE_Q [2.65126] - RE_P [125.918] - Regulation [1.48565] - loss [0.314269]
+The model has been saved
+Epoch [24900] - Time [3585.34s] - RE_Q [2.46841] - RE_P [192.762] - Regulation [1.39328] - loss [0.293604]
+The model has been saved
+Epoch [25000] - Time [3572.55s] - RE_Q [4.48523] - RE_P [213.599] - Regulation [2.13502] - loss [0.493828]
+The model has been saved
+Epoch [25100] - Time [3560.3s] - RE_Q [2.96339] - RE_P [334.359] - Regulation [1.66501] - loss [0.351713]
+The model has been saved
+Epoch [25200] - Time [3601s] - RE_Q [3.10439] - RE_P [45.129] - Regulation [1.87005] - loss [0.381029]
+The model has been saved
+Epoch [25300] - Time [3557.09s] - RE_Q [2.69254] - RE_P [72.1554] - Regulation [1.59786] - loss [0.32807]
+The model has been saved
+Epoch [25400] - Time [3557.73s] - RE_Q [2.38956] - RE_P [28.4365] - Regulation [1.38891] - loss [0.288238]
+The model has been saved
+Epoch [25500] - Time [3558.95s] - RE_Q [2.33329] - RE_P [299.014] - Regulation [1.24319] - loss [0.27015]
+The model has been saved
+Epoch [25600] - Time [3565.62s] - RE_Q [2.19046] - RE_P [210.755] - Regulation [1.29013] - loss [0.265917]
+The model has been saved
+Epoch [25700] - Time [3579.14s] - RE_Q [2.15007] - RE_P [196.563] - Regulation [1.10728] - loss [0.245107]
+The model has been saved
+Epoch [25800] - Time [3649.04s] - RE_Q [2.03929] - RE_P [465.844] - Regulation [1.31193] - loss [0.258649]
+The model has been saved
+Epoch [25900] - Time [3580.81s] - RE_Q [2.61568] - RE_P [28.0096] - Regulation [1.2222] - loss [0.2857]
+The model has been saved
+Epoch [26000] - Time [3589.77s] - RE_Q [3.37373] - RE_P [31.5913] - Regulation [1.68742] - loss [0.3796]
+The model has been saved
+Epoch [26100] - Time [3569.47s] - RE_Q [3.31036] - RE_P [83.3594] - Regulation [1.6592] - loss [0.372817]
+The model has been saved
+Epoch [26200] - Time [3587.57s] - RE_Q [3.15262] - RE_P [462.044] - Regulation [1.21217] - loss [0.318255]
+The model has been saved
+Epoch [26300] - Time [3593.81s] - RE_Q [2.77216] - RE_P [94.4766] - Regulation [1.26877] - loss [0.300137]
+The model has been saved
+Epoch [26400] - Time [3588.23s] - RE_Q [2.26051] - RE_P [473.098] - Regulation [1.28993] - loss [0.270275]
+The model has been saved
+Epoch [26500] - Time [3606.05s] - RE_Q [2.4443] - RE_P [71.3302] - Regulation [1.28466] - loss [0.281235]
+The model has been saved
+Epoch [26600] - Time [3585.28s] - RE_Q [2.47405] - RE_P [392.864] - Regulation [1.12696] - loss [0.267324]
+The model has been saved
+Epoch [26700] - Time [3565.94s] - RE_Q [2.45938] - RE_P [69.2746] - Regulation [1.24093] - loss [0.277804]
+The model has been saved
+Epoch [26800] - Time [3585.34s] - RE_Q [2.1129] - RE_P [34.9824] - Regulation [0.89814] - loss [0.22187]
+The model has been saved
+Epoch [26900] - Time [3583.73s] - RE_Q [2.09383] - RE_P [70.169] - Regulation [1.14117] - loss [0.244981]
+The model has been saved
+Epoch [27000] - Time [3620.14s] - RE_Q [2.73728] - RE_P [169.636] - Regulation [1.26215] - loss [0.297295]
+The model has been saved
+Epoch [27100] - Time [3592.68s] - RE_Q [2.05145] - RE_P [56.5065] - Regulation [1.09656] - loss [0.237872]
+The model has been saved
+Epoch [27200] - Time [3624.24s] - RE_Q [2.004] - RE_P [499.909] - Regulation [1.04304] - loss [0.229554]
+The model has been saved
+Epoch [27300] - Time [3624.56s] - RE_Q [2.36243] - RE_P [180.621] - Regulation [1.05549] - loss [0.253201]
+The model has been saved
+Epoch [27400] - Time [3630.58s] - RE_Q [2.26241] - RE_P [82.4497] - Regulation [1.37624] - loss [0.279024]
+The model has been saved
+Epoch [27500] - Time [3511.17s] - RE_Q [2.18083] - RE_P [108.704] - Regulation [0.79687] - loss [0.215989]
+The model has been saved
+Epoch [27600] - Time [3711.81s] - RE_Q [4.1424] - RE_P [176.714] - Regulation [1.87179] - loss [0.446079]
+The model has been saved
+Epoch [27700] - Time [3647.66s] - RE_Q [2.53209] - RE_P [385.436] - Regulation [1.24615] - loss [0.282871]
+The model has been saved
+Epoch [27800] - Time [3703.51s] - RE_Q [2.44186] - RE_P [10.4259] - Regulation [1.13323] - loss [0.26594]
+The model has been saved
+Epoch [27900] - Time [3696.98s] - RE_Q [1.9742] - RE_P [669.209] - Regulation [0.971931] - loss [0.220581]
+The model has been saved
+Epoch [28000] - Time [3580.98s] - RE_Q [2.62105] - RE_P [43.2762] - Regulation [1.21146] - loss [0.284962]
+The model has been saved
+Epoch [28100] - Time [3507.08s] - RE_Q [2.3138] - RE_P [475.175] - Regulation [1.21997] - loss [0.266609]
+The model has been saved
+Epoch [28200] - Time [3567.7s] - RE_Q [2.37073] - RE_P [105.714] - Regulation [1.03119] - loss [0.25129]
+The model has been saved
+Epoch [28300] - Time [3559.44s] - RE_Q [1.94771] - RE_P [39.2606] - Regulation [1.24973] - loss [0.246705]
+The model has been saved
+Epoch [28400] - Time [3540.72s] - RE_Q [2.69363] - RE_P [79.7483] - Regulation [1.24215] - loss [0.292567]
+The model has been saved
+Epoch [28500] - Time [3549.92s] - RE_Q [2.20617] - RE_P [130.619] - Regulation [1.23476] - loss [0.261361]
+The model has been saved
+Epoch [28600] - Time [3547.26s] - RE_Q [14.9939] - RE_P [256.21] - Regulation [3.89839] - loss [1.32696]
+The model has been saved
+Epoch [28700] - Time [3564.18s] - RE_Q [1.84787] - RE_P [29.684] - Regulation [0.886447] - loss [0.204137]
+The model has been saved
+Epoch [28800] - Time [3557.43s] - RE_Q [2.02657] - RE_P [182.541] - Regulation [0.880346] - loss [0.214695]
+The model has been saved
+Epoch [28900] - Time [3551.07s] - RE_Q [7.50938] - RE_P [1165.25] - Regulation [3.06385] - loss [0.775721]
+The model has been saved
+Epoch [29000] - Time [3576.58s] - RE_Q [1.87647] - RE_P [21.9556] - Regulation [1.28082] - loss [0.245361]
+The model has been saved
+Epoch [29100] - Time [3573.5s] - RE_Q [2.41267] - RE_P [53.7799] - Regulation [0.990329] - loss [0.249825]
+The model has been saved
+Epoch [29200] - Time [3567.91s] - RE_Q [1.77451] - RE_P [50.6457] - Regulation [0.821165] - loss [0.193024]
+The model has been saved
+Epoch [29300] - Time [3367.7s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [29400] - Time [3154.24s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [29500] - Time [3158.06s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [29600] - Time [3148.91s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [29700] - Time [3165.94s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [29800] - Time [3152.52s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [29900] - Time [3142.17s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [30000] - Time [3161.09s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [30100] - Time [3132.54s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [30200] - Time [3183.02s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [30300] - Time [3155.98s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [30400] - Time [3139.49s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [30500] - Time [3149.62s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [30600] - Time [3147.87s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [30700] - Time [3114.28s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [30800] - Time [3152.41s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [30900] - Time [3118.29s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [31000] - Time [3132.12s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [31100] - Time [3150.02s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [31200] - Time [3145.56s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [31300] - Time [3141.12s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [31400] - Time [3140.37s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [31500] - Time [3167.83s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [31600] - Time [3179.43s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [31700] - Time [3170.34s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [31800] - Time [3178.05s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [31900] - Time [3173.37s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [32000] - Time [3194.33s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [32100] - Time [3160.49s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [32200] - Time [3154.56s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [32300] - Time [3160.38s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [32400] - Time [3170.09s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [32500] - Time [3181.76s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [32600] - Time [3140.78s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [32700] - Time [3176.61s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [32800] - Time [3178.72s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [32900] - Time [3156.92s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [33000] - Time [3168.25s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [33100] - Time [3174.91s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [33200] - Time [3160.16s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [33300] - Time [3190.19s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [33400] - Time [3191.48s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [33500] - Time [3272.26s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [33600] - Time [3153.86s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [33700] - Time [3183.73s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [33800] - Time [3158.41s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [33900] - Time [3145.3s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [34000] - Time [3148.46s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved
+Epoch [34100] - Time [3159.16s] - RE_Q [-nan] - RE_P [-nan] - Regulation [-nan] - loss [-nan]
+The model has been saved

@@ -1,0 +1,5 @@
+Training from scratch ...
+Epoch [100] - Time [12259.8ms] - RE_Q [801.222] - RE_P [2248.74] - Regulation [52.7927] - loss [55.3556]
+The model has been saved
+Epoch [200] - Time [12326.4ms] - RE_Q [760.56] - RE_P [838.883] - Regulation [17.1635] - loss [49.2513]
+The model has been saved

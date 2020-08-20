@@ -1,0 +1,7 @@
+<launch>
+  <!-- <include file="$(find torobo_collision_detector)/launch/torobo_collision_detector.launch"></include> -->
+
+  <node name="torobo_operator_node" ns="torobo" pkg="tutorial"
+    type="headBabbling.py" respawn="false" output="screen" cwd="node"/>
+</launch>
+
