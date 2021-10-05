@@ -21,8 +21,15 @@ We used a 16-joint humanoid robot (Torobo Humanoid, Tokyo Robotics). The models 
 
 We used two slightly different deterministic models. The first and simpler one (Figs. ¥ref{fig:Det_training}, ¥ref{fig:Det_testing}) was trained on a dataset of three primitives each representing a separate sequence; the primitives were stacked along the time axis into one long trajectory.
 
-<img src="assets/Det_training.png" width=25% height=25%>
+<img src="assets/Det_training.png" width=80%>
 
+However, the downside of this approach is that the model may simply learn one long trajectory and be 'reluctant' to switch/interpolate between primitives in a way that is not consistent with the order of points in the training trajectory. In other words, it is unclear whether such a model can in principle handle cases where the die is located off the spots seen during training.
+
+<img src="assets/Det_testing.png" width=80%>
+
+Training the RNN on separate sequences seemed a reasonable next step. Our second model (Fig. ¥ref{fig:VAE}) was trained on separate primitives. During training, initial hidden states corresponding to each trajectory were taken from the bottleneck of a separate variational autoencoder pre-trained on the same dataset. These hidden states provided low-dimensional representations of the future trajectory the RNN should generate. With only three primitives three different arbitrary hidden variables would work equally well, but with a larger number of primitives the corresponding initial hidden states should retain the relative structure of the primitives they encode.
+
+<img src="assets/VAE.png" width=80%>
 
 ## RECORD_SEPARATE_trajectories_2.ipynb
 
