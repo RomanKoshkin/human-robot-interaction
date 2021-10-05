@@ -53,6 +53,19 @@ At testing, the robot's arms are set to an external force following online traje
 
 With the caveat that more experimenting is necessary, the deterministic RNN trained on one  dataset of three stacked trajectories performed best (see videos [1](https://youtu.be/JDUFVfB_m2I), [2](https://youtu.be/gvtrafrl8U8), [3](https://youtu.be/t3FlPp70nlI), [4](https://youtu.be/Zgrf4W37GI4)). In terms of human-robot interaction, this model responded to the experimenter moving the robot's hands apart and seeminly 'tried' to grasp the target in locations between those present in the training data. Specifically, when the robot was stuck holding the target for a long time, a slight push by the experimenter was enough to help the robot go back the the starting position (arms wide open). 
 
+## References
+<a id="1">[1]</a> 
+J. Redmon and A. Farhadi, “Yolov3: An incremental improvement,” arXiv, 2018.
+<a id="2">[2]</a> 
+[E. Linder-Noren, “Pytorch- yolov3.”](https://github.com/ eriklindernoren/PyTorch-YOLOv3, 2020.)
+<a id="3">[3]</a> 
+J. A. Ahmadi and J. Tani, “A novel predictive-coding-inspired variational rnn model for online prediction and recognition,” Neural computation, vol. 31, no. 11, pp. 2025–2074, 2019.
+<a id="4">[4]</a> 
+H. F. Chame, A. Ahmadi, and J. Tani, “Towards hybrid primary intersub- jectivity: a neural robotics library for human science,” arXiv preprint arXiv:2006.15948, 2020.
+<a id="5">[6]</a> 
+J. Cartucho, R. Ventura, and M. Veloso, “Robust object recognition through symbiotic deep learning in mobile robots,” in 2018 IEEE/RSJ Interna- tional Conference on Intelligent Robots and Systems (IROS), pp. 2336–2341, 2018.
+
+
 
 
 ## RECORD_SEPARATE_trajectories_2.ipynb
