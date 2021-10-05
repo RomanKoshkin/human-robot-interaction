@@ -1,4 +1,13 @@
-# Models and Scripts
+# Tutoring Object Manipulation Skills in a Human-Robot Interaction Paradigm
+
+<a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
+[![Generic badge](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](CONTRIBUTING.md)
+![GitHub](https://img.shields.io/github/license/RomanKoshkin/ema_x_bot)
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
+This project explored the ability of recurrent neu- ral networks trained on a small set of motor prim- itives to generate meaningful novel patterns with limited corrective feedback from the experimenter.
+
+
 
 ## RECORD_SEPARATE_trajectories_2.ipynb
 
