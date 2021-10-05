@@ -42,7 +42,7 @@ Training the RNN on separate sequences seemed a reasonable next step. Our second
 
 For the stochastic model we took a different approach, in which the head was kept fixated on the target by an independent object-detection model (YOLO ¥cite{yolov3, ErikLinderNoren2020}) both during training and testing. The main control model (PV-RNN [[3]](#3)) received no direct visual input; it could only infer the position of the target based on the the angles of joints 14 and 15 (neck). Thus, despite no high-dimensional visual input, the PV-RNN was able to learn the association between the position of the object on the table and where arms should be moved next to complete the task with the least error possible. For YOLO, we used weights pre-trained on the CoCo dataset and trained them for 1000 epochs on 109 images of and corresponding bounding boxes around the target object. The bounding boxes were drawn manually using the OpenLabeling software [[5]](#5)).
 
-<img src="assets/Picture 1.png" width=70%>
+<img src="assets/PVRNN_test_.jpg" width=70%>
 <em>Stochastic model at training. The robot's arms and neck follow pre-recorded trajectories. PV-RNN learns to predict arm joint angles at the next step based on current arm and neck positions.</em>
 <br/><br/>
 
@@ -76,31 +76,30 @@ H. F. Chame, A. Ahmadi, and J. Tani, “Towards hybrid primary intersub- jectivi
 J. Cartucho, R. Ventura, and M. Veloso, “Robust object recognition through symbiotic deep learning in mobile robots,” in 2018 IEEE/RSJ Interna- tional Conference on Intelligent Robots and Systems (IROS), pp. 2336–2341, 2018.
 
 
-
+# Code
 
 ## RECORD_SEPARATE_trajectories_2.ipynb
 
-- BUILDS SEVERAL TRAJECTORIES BASED ON CAPTURED WAYPOINTS, SAVES THEM INTO A RADA FILE
-- REPLAYS ALL THE TRAJECTORIES (WITH SHORT PAUSES TO REPOSITION THE CUBE), WHILE DENSELY RECORDING 
-  JOINT ANGLES AND VIDEO FRAMES. RECORDS INTO 'RAD0.dat', 'RAD1.dat' FILES
-      DICTIONARIES WITH KEYS ('joints', 'igm', 't')
-- ALLOWS ONE TO SEE VIDEO AND JOINT ANGLES FROM RECORDED TRAJECTORIES
+- builds several trajectories based on captured waypoints, saves them into a rada file
+- replays all the trajectories (with short pauses to reposition the cube), while densely recording
+  joint angles and video frames. records into 'rad0.dat', 'rad1.dat' files
+      dictionaries with keys ('joints', 'igm', 't')
+- allows one to see video and joint angles from recorded trajectories
 
 ## VAE_RNN (vid_motor) TRAIN.ipynb
 
-- A VAE ENCODES VIDEO AND JOINT ANGLES TOGETHER INTO A LATENT REPRESENTATION OF SIZE 20 (16 JOINTS, NO COMPRESSION, VIDEO 64X64 INTO A 4D REPRESENTATION)
-- USES THE LATENT REPRESENTATIONS OBTAINED BY FORWARDING THE FIRST FRAME THROUGH THE VAE
-- IN A SEQUENCE AND THE JOINT ANGLES AT TIME 0, AS __ THE HIDDEN STATES __ FOR THE RNN
-- THE (DETERMNISTIC) RNN SIMILARLY TO THE THE VAE TAKES VISUAL AND MOTOR INPUT, BUT INSTEAD AT ITS BOTTLENECK IT HAS A RECURRENT
-LAYER.
+- a VAE encodes video and joint angles together into a latent representation of size 20 (16 joints, no compression, video 64x64 into a 4d representation)
+- uses the latent representations obtained by forwarding the first frame through the vae
+- in a sequence and the joint angles at time 0, as *the hidden states* for the RNN
+- the (determnistic) RNN similarly to the the vae takes visual and motor input, but instead at its bottleneck it has a recurrentlayer.
 
 ## VAE_RNN (vid_motor) TEST.ipynb
 
 - trained on three similar but separate trajectories (not concatenated)
-- THE VAE (ENCODES THE MOTOR+VISUAL INTO A LATENT STATE) AND RNN (USES THE LATENT STATE
-  AS THE INITIAL HIDDEN STATE) MODELS
-- WEIGHTS TRAINED BY VAE_encode_vid_motor_TEST
-- USES THESE MODELS TO CONTROLS THE PHYSICAL ROBOTA VAE ENCODES VIDEO AND JOINT ANGLES TOGETHER INTO A LATENT REPRESENTATION OF SIZE 20 (16 JOINTS, NO COMPRESSION + VIDEO 64X64 INTO A 4D REPRESENTATION)
+- the VAE (encodes the motor+visual into a latent state) and rnn (uses the latent state
+  as the initial hidden state) models
+- weights trained by `vae_encode_vid_motor_test.ipynb`
+- uses these models to controls the physical robot, VAE encodes video and joint angles together into a latent representation of size 20 (16 joints, no compression + video 64x64 into a 4d representation)
 
 
 ## RECORD_SEPARATE_trajectories_3_w_head.ipynb
@@ -117,20 +116,20 @@ This notebook tests a deterministic RNN (trained in Train RNN.ipynb) and calls/i
 
 ## PVRNN Prior Generation-with_head_tracking.ipynb
 
-loads a pre-trained PV-RNN/YOLOv3 model and demonstrates PV-RNN in the prior generation mode. I.e. generates a primitive seen during training.
+Loads a pre-trained PV-RNN/YOLOv3 model and demonstrates PV-RNN in the prior generation mode. I.e. generates a primitive seen during training.
 
 ## ERROR REGRESSION_with_head_tracking.ipynb
 
-loads a pre-trained PV-RNN/YOLOv3 model and demonstrates PV-RNN in the error regression mode.
+Loads a pre-trained PV-RNN/YOLOv3 model and demonstrates PV-RNN in the error regression mode.
 
+`checkpont_ww` [BEST] - this checkpoint reproduces the motions WELL. Here we allow the robot's head to track the object. No concatenations.
+`checkpoint_ww1` - here we object tracking is OFF. Dataset IS concatenated
+`checkpoint_ss` - object tracking is on, datasets concatenated, pred 0.1, gt 0.9
 
-checkpont_ww [BEST] - this checkpoint reproduces the motions WELL
-	here we allow the robot's head to track the object. no concatenations
+## The best model
 
-checkpoint_ww1 - here we object tracking is OFF. Dataset IS concatenated
-
-checkpoint_ss - object tracking is on, datasets concatenated, pred 0.1, gt 0.9
-
-# the best model
-
-checkpoint_overnight_90_10 - object tracking is on, datasets concatenated, pred 0.1, gt 0.9 (OVERNIGHT TRAINING) {BEST}
+`checkpoint_overnight_90_10`
+- object tracking is on
+- datasets concatenated
+- pred 0.1, gt 0.9 
+- OVERNIGHT TRAINING
