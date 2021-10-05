@@ -7,6 +7,8 @@
 
 This project explored the ability of recurrent neural networks trained on a small set of motor prim- itives to generate meaningful novel patterns with limited corrective feedback from the experimenter.
 
+### Click to watch video
+[![Everything Is AWESOME](https://img.youtube.com/vi/JDUFVfB_m2I/0.jpg)](https://www.youtube.com/embed/JDUFVfB_m2I "Everything Is AWESOME")
 ## Introduction
 
 According to one hypothesis, complex motor behaviors are compositions of a limited set of innate and/or learned motor primitives. We attempted to test this hypothesis in a humanoid robot controlled by a recurrent neural network (RNN). Specifically, our robot was trained to grasp a target object in three different locations. If the hypothesis is true, the robot should be able grasp the target not only in the trained, but also in other locations. 
