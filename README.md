@@ -7,7 +7,22 @@
 
 This project explored the ability of recurrent neural networks trained on a small set of motor prim- itives to generate meaningful novel patterns with limited corrective feedback from the experimenter.
 
-<img src="assets/Det_training.pdf" width=25% height=25%>
+## Introduction
+
+According to one hypothesis, complex motor behaviors are compositions of a limited set of innate and/or learned motor primitives. We attempted to test this hypothesis in a humanoid robot controlled by a recurrent neural network (RNN). Specifically, our robot was trained to grasp a target object in three different locations. If the hypothesis is true, the robot should be able grasp the target not only in the trained, but also in other locations. 
+
+Aware that model architecture might lead to vastly different results, we explored two alternative architectures: a simpler deterministic RNN (with and without a separately trained variational autoencoder) and a more advanced variational Bayes RNN. In the Methods section below we limit our account to the most important aspects, for full details please see the Git repository ¥cite{humrobint}.
+
+## Methods
+
+We used a 16-joint humanoid robot (Torobo Humanoid, Tokyo Robotics). The models were trained on a dataset of three primitives either  representing separate sequences each or stacked along the time axis into one long trajectory. A primitive was defined as a sequence of joint angle vectors of size 16 comprising a motion trajectory. Each primitive began at the starting position, continued smoothly until the object -- a soft toy die (approx. 13 x 13 x 13 cm) lying on a white plastic surface -- was grasped, (for the deterministic model -- also lifted, put back on the table), released, and terminated back at the starting position. Complete with motor data (joint angles comprising the movement trajectory) the datasets contained temporally synchronized visual inputs (grayscale images of size 64 x 64 pixels). The training data were recorded using a separate Python script at 10 Hz as the robot's arms were moving along a trajectory of seven waypoints, while the head was fixated on the object by an independently running object detection model (YOLO v3  ¥cite{yolov3, ErikLinderNoren2020}). Note that with the deterministic models YOLO was only used during training, while during testing the RNN controlled all the joints (including neck). The deterministic models were were implemented in PyTorch and trained with two loss functions (for motor and visual loss). For the stochastic model we used the NRL C++ library; for details please refer to ¥cite{ahmadi2019novel, chame2020towards}
+
+## Deterministic models
+
+We used two slightly different deterministic models. The first and simpler one (Figs. ¥ref{fig:Det_training}, ¥ref{fig:Det_testing}) was trained on a dataset of three primitives each representing a separate sequence; the primitives were stacked along the time axis into one long trajectory.
+
+<img src="assets/Det_training.png" width=25% height=25%>
+
 
 ## RECORD_SEPARATE_trajectories_2.ipynb
 
