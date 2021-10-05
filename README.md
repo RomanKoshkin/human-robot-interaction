@@ -5,9 +5,9 @@
 ![GitHub](https://img.shields.io/github/license/RomanKoshkin/ema_x_bot)
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-This project explored the ability of recurrent neu- ral networks trained on a small set of motor prim- itives to generate meaningful novel patterns with limited corrective feedback from the experimenter.
+This project explored the ability of recurrent neural networks trained on a small set of motor prim- itives to generate meaningful novel patterns with limited corrective feedback from the experimenter.
 
-
+<img src="assets/Det_training.pdf" width=25% height=25%>
 
 ## RECORD_SEPARATE_trajectories_2.ipynb
 
