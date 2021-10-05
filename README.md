@@ -41,8 +41,19 @@ For the stochastic model we took a different approach, in which the head was kep
 <img src="assets/PVRNN_train.png" width=70%>
 <em>Stochastic model at training. The robot's arms and neck follow pre-recorded trajectories. PV-RNN learns to predict arm joint angles at the next step based on current arm and neck positions.</em>
 
+
 <img src="assets/PVRNN_test.png" width=70%>
 <em>Stochastic model at testing. The model receives proprioceptive feedback from the joints, two of which (14, 15) are controlled by YOLO.</em>
+
+## Testing
+
+At testing, the robot's arms are set to an external force following online trajectory mode in which the robots arms move along the trajectory predicted by the model, but also respond to external forces applied by the experimenter. We hypothesized that if the model learns several attractors corresponding to a specific trajectory, it would be possible for the experimenter to encourage the robot -- by pushing and pulling at its arms -- to switch from one primitive to another and potentially generate meaningful novel motions (e.g. reaching for the target in a location not seen at training).
+
+## Results
+
+With the caveat that more experimenting is necessary, the deterministic RNN trained on one  dataset of three stacked trajectories performed best (see videos [1](https://youtu.be/JDUFVfB_m2I), [2](https://youtu.be/gvtrafrl8U8), [3](https://youtu.be/t3FlPp70nlI), [4](https://youtu.be/Zgrf4W37GI4)). In terms of human-robot interaction, this model responded to the experimenter moving the robot's hands apart and seeminly 'tried' to grasp the target in locations between those present in the training data. Specifically, when the robot was stuck holding the target for a long time, a slight push by the experimenter was enough to help the robot go back the the starting position (arms wide open). 
+
+
 
 ## RECORD_SEPARATE_trajectories_2.ipynb
 
