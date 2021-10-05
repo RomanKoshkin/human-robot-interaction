@@ -11,11 +11,11 @@ This project explored the ability of recurrent neural networks trained on a smal
 
 According to one hypothesis, complex motor behaviors are compositions of a limited set of innate and/or learned motor primitives. We attempted to test this hypothesis in a humanoid robot controlled by a recurrent neural network (RNN). Specifically, our robot was trained to grasp a target object in three different locations. If the hypothesis is true, the robot should be able grasp the target not only in the trained, but also in other locations. 
 
-Aware that model architecture might lead to vastly different results, we explored two alternative architectures: a simpler deterministic RNN (with and without a separately trained variational autoencoder) and a more advanced variational Bayes RNN. In the Methods section below we limit our account to the most important aspects, for full details please see the Git repository ¥cite{humrobint}.
+Aware that model architecture might lead to vastly different results, we explored two alternative architectures: a simpler deterministic RNN (with and without a separately trained variational autoencoder) and a more advanced variational Bayes RNN. In the Methods section below we limit our account to the most important aspects, for full details please see the code in this repo.
 
 ## Methods
 
-We used a 16-joint humanoid robot (Torobo Humanoid, Tokyo Robotics). The models were trained on a dataset of three primitives either  representing separate sequences each or stacked along the time axis into one long trajectory. A primitive was defined as a sequence of joint angle vectors of size 16 comprising a motion trajectory. Each primitive began at the starting position, continued smoothly until the object -- a soft toy die (approx. 13 x 13 x 13 cm) lying on a white plastic surface -- was grasped, (for the deterministic model -- also lifted, put back on the table), released, and terminated back at the starting position. Complete with motor data (joint angles comprising the movement trajectory) the datasets contained temporally synchronized visual inputs (grayscale images of size 64 x 64 pixels). The training data were recorded using a separate Python script at 10 Hz as the robot's arms were moving along a trajectory of seven waypoints, while the head was fixated on the object by an independently running object detection model (YOLO v3  ¥cite{yolov3, ErikLinderNoren2020}). Note that with the deterministic models YOLO was only used during training, while during testing the RNN controlled all the joints (including neck). The deterministic models were were implemented in PyTorch and trained with two loss functions (for motor and visual loss). For the stochastic model we used the NRL C++ library; for details please refer to ¥cite{ahmadi2019novel, chame2020towards}
+We used a 16-joint humanoid robot (Torobo Humanoid, Tokyo Robotics). The models were trained on a dataset of three primitives either  representing separate sequences each or stacked along the time axis into one long trajectory. A primitive was defined as a sequence of joint angle vectors of size 16 comprising a motion trajectory. Each primitive began at the starting position, continued smoothly until the object -- a soft toy die (approx. 13 x 13 x 13 cm) lying on a white plastic surface -- was grasped, (for the deterministic model -- also lifted, put back on the table), released, and terminated back at the starting position. Complete with motor data (joint angles comprising the movement trajectory) the datasets contained temporally synchronized visual inputs (grayscale images of size 64 x 64 pixels). The training data were recorded using a separate Python script at 10 Hz as the robot's arms were moving along a trajectory of seven waypoints, while the head was fixated on the object by an independently running object detection model (YOLO v3  ¥cite{yolov3, ErikLinderNoren2020}). Note that with the deterministic models YOLO was only used during training, while during testing the RNN controlled all the joints (including neck). The deterministic models were were implemented in PyTorch and trained with two loss functions (for motor and visual loss). For the stochastic model we used the NRL C++ library; for details please refer to [[3]](#3) and [[4]](#4).
 
 ## Deterministic models
 
@@ -56,12 +56,16 @@ With the caveat that more experimenting is necessary, the deterministic RNN trai
 ## References
 <a id="1">[1]</a> 
 J. Redmon and A. Farhadi, “Yolov3: An incremental improvement,” arXiv, 2018.
+
 <a id="2">[2]</a> 
 [E. Linder-Noren, “Pytorch- yolov3.”](https://github.com/ eriklindernoren/PyTorch-YOLOv3, 2020.)
+
 <a id="3">[3]</a> 
 J. A. Ahmadi and J. Tani, “A novel predictive-coding-inspired variational rnn model for online prediction and recognition,” Neural computation, vol. 31, no. 11, pp. 2025–2074, 2019.
+
 <a id="4">[4]</a> 
 H. F. Chame, A. Ahmadi, and J. Tani, “Towards hybrid primary intersub- jectivity: a neural robotics library for human science,” arXiv preprint arXiv:2006.15948, 2020.
+
 <a id="5">[6]</a> 
 J. Cartucho, R. Ventura, and M. Veloso, “Robust object recognition through symbiotic deep learning in mobile robots,” in 2018 IEEE/RSJ Interna- tional Conference on Intelligent Robots and Systems (IROS), pp. 2336–2341, 2018.
 
