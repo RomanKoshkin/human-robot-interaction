@@ -5,7 +5,7 @@
 ![GitHub](https://img.shields.io/github/license/RomanKoshkin/ema_x_bot)
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-This project explored the ability of recurrent neural networks trained on a small set of motor prim- itives to generate meaningful novel patterns with limited corrective feedback from the experimenter.
+This project explored the ability of recurrent neural networks trained on a small set of motor primitives to generate meaningful novel patterns with limited corrective feedback from the experimenter.
 
 ### Click to watch video
 [![Everything Is AWESOME](https://img.youtube.com/vi/JDUFVfB_m2I/0.jpg)](https://www.youtube.com/embed/JDUFVfB_m2I "Everything Is AWESOME")
